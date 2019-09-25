@@ -1,0 +1,158 @@
+
+body {
+    font-family: arial,sans-serif;
+    margin: auto;
+    align-items: center;
+}
+
+#navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    padding: 22px 28px;
+    font-size: 13px;
+    margin: auto;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.input {
+    text-align: center;
+
+}
+
+input {
+    width: 400px;
+    height: 33px;
+    border: none;
+}
+
+.offered {
+    text-align: center;
+    font-size: small;
+}
+
+.button {
+    text-align: center;
+    display: inline;
+    height: 36px;
+    line-height: 27px;
+    margin: 11px 4px;
+}
+
+.talen {
+    color: #1a0dab;
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+.talen:hover {
+    text-decoration: none;
+}
+
+center {
+    height: 58px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 11px 4px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+}
+
+.inloggen {
+    text-decoration: none;
+    background-color: #4285f4;
+    color: white;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    border: 12px;
+}
+
+.Afbeelding {
+    padding: 7px 7px;
+    text-decoration: none;
+}
+
+.Gmail {
+    padding: 7px 7px;
+    text-decoration: none;
+}
+
+.Gmail:hover {
+    text-decoration: underline;
+}
+
+.Afbeelding:hover {
+    text-decoration: underline;
+}
+
+.app {
+    padding: 7px 7px;
+}
+
+#bottum {
+    bottom: 0;
+    font-size: 10pt;
+    height: 45px;
+    position: absolute;
+    width: 100%;
+    background-color: #f2f2f2;
+    }
+
+.prefR {
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    padding: 14px;
+    left: 252px;
+    float: right;
+    color: #5f6368;
+}
+
+.prefL {
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    padding: 14px;
+    float: left;
+    color: #5f6368;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#ring{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid #bfbfbf;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 40px;
+
+}
+
+
+
+

@@ -1,0 +1,19 @@
+body {
+    background-color: #e9ebee;
+}
+
+
+h1 {
+    color: DodgerBlue;
+    text-align: center;
+    border-style: solid;
+}
+
+a:hover {
+  color: #78ff43;
+}
+
+img {
+    float: left;
+    padding: 50px;
+}

@@ -1,0 +1,75 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 30px;
+}
+
+.appointment {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-row {
+    padding: 20px;
+}
+
+#time {
+    width: 400px;
+    padding-left: 90px;
+}
+
+#form {
+    width: 400px;
+    padding-right: 90px;
+}
+
+.appointment {
+    padding-top: 50px;
+}
+
+#accordionExample {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#contact {
+    padding: 20px;
+    padding-left: 180px;
+    float: left;
+}
+
+#navigation {
+    padding: 20px;
+    padding-right: 180px;
+    float: right;
+    text-align: right;
+}
+
+#footer {
+    height: 280px;
+    font-size: 12px;
+    background-color: rgba(180,180,180,0.55);
+    margin-top: 40px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    border-bottom: 3px solid gray;
+    color: gray;
+}
+
+link {
+     text-decoration: none;
+}
