@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+     <!-- Bootstrap CSS -->
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <link href="../static/css/style_hair.css" rel="stylesheet">
+
+        <!-- JavaScript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+
+</head>
+<body>
+
+    <h3 id="OS">Portfolio</h3>
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Boogle</h5>
+                </div>
+                <a href="{{ url_for('boogle')}}">
+                    <img src="../static/img/logo-google.png" class="card-img-top" alt="...">
+                </a>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Fakebook</h5>
+                </div>
+                <a href= "{{ url_for('fakebook')}}">
+                    <img src="../static/img/facebook-icon.png" class="card-img-top" alt="...">
+                </a>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Hair Salon</h5>
+                </div>
+                <a href="{{ url_for('hair_salon')}}">
+                    <img src="../static/img/logo.png" class="card-img-top" alt="..."  >
+                </a>
+            </div>
+        </div>
+
+</body>
+</html>

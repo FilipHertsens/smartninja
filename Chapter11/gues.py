@@ -1,5 +1,11 @@
-import json
+import json5 as json
 import random
+import datetime
+
+current_time = datetime.datetime.now()
+
+print(current_time)
+
 
 secret = random.randint(1, 30)
 attempts = 0
@@ -16,7 +22,7 @@ while True:
     attempts += 1
 
     if guess == secret:
-        score_list.append(attempts)
+        score_data = {"attempts": attempts, "date": datetime.datetime.now()}
 
         with open("score_list.txt", "w") as score_file:
             score_file.write(json.dumps(score_list))
